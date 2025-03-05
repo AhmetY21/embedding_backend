@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer
 
 MODEL_NAME = 'sentence-transformers/all-MiniLM-L6-v2'
 MODEL_CACHE_DIR = os.getenv('MODEL_CACHE_DIR', '/app/model_cache')
-
+#test
 def initialize_model():
     # Ensure cache directory exists
     os.makedirs(MODEL_CACHE_DIR, exist_ok=True)
